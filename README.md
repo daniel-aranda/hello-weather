@@ -20,6 +20,9 @@ Code was made using ES6 classes so is very easy and straight forward to add unit
 
 Jasmine BDD tests will be add soon.
 
+
+### Licenses
+
 You can't use the weather icons, that was bought by me for this specific open source project only, please read licenses here:
 https://www.vectorstock.com/royalty-free-vector/modern-realistic-weather-icons-set-meteorology-vector-20994038
 
