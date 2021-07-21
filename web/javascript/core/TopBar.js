@@ -5,7 +5,7 @@ export default class TopBar extends View {
     static TEMPLATE() {
         return `
             <div>
-                <input class="new-city" type="text" />
+                <input class="new-city" type="text" placeholder="City name..." />
                 <button class="btn-add-city">
                     add city
                 </button>
@@ -41,6 +41,8 @@ export default class TopBar extends View {
     addCityHanlder(){
         
         this.openWeatherAPI.addCity(this.find(`.new-city`).value);
+
+        this.find(`.new-city`).value = ``;
 
     }
 
