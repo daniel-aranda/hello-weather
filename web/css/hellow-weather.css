@@ -1,0 +1,192 @@
+*{
+    font-family: 'Roboto';
+}
+
+body{
+    background: url("../assets/images/weather_background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+#header{
+    background: linear-gradient(to bottom, #F6DA72 0%, #D9AC10 100%);
+    padding: 0.1em;
+    margin-bottom: 1em;
+    font-size: 1.4em;
+    color: #574506;
+    font-family: 'Lobster';
+}
+#header img{
+    vertical-align: middle;
+    margin: 0.1em 0.5em 0.1em 1em;
+}
+
+#top-bar{
+    padding: 0 1em;
+}
+
+#top-bar input{
+    padding: 1em;
+    width: 40em;
+}
+
+#top-bar button{
+    padding: 1em;
+    background-color: #E5660D;
+    color: #F7D7C0;
+    border: 2px solid #8E400A;
+    cursor: pointer;
+}
+
+.cities > div{
+    background-color: rgba(20, 90, 140, 0.7);
+    margin: 2em 1em 4em 1em;
+    display: grid;
+    grid-template-columns: 30% 25% 20% 25%;
+    grid-template-areas: ". . . .";
+}
+
+.cities > div > .weather{
+    background: linear-gradient(to bottom, #90dffe 0%,#38a3d1 100%);
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+}
+
+.cities > div > .weather.transition{
+    background: linear-gradient(to bottom, #face55 0%, #c96308 100%);
+}
+
+.cities > div > .weather.night{
+    background: linear-gradient(to bottom, #335588 0%,#001122 100%);
+}
+
+.cities > div > .weather .name{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    overflow: hidden;
+    font-size: 2em;
+    color: white;
+    text-shadow: 1px 1px 1px #115588;
+    background-color: rgba(10, 40, 80, 0.15);
+    padding: 0.2em 0.4em;
+}
+
+.cities > div > .weather .icon{
+    width: 100px;
+    height: 80px;
+    background: url("../assets/images/weather.png") no-repeat;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+}
+
+.cities > div > .weather .current-temp{
+    position: absolute;
+    top: 70px;
+    left: 130px;
+    font-size: 5em;
+    color: white;
+    text-shadow: 2px 2px 2px #2277aa;
+}
+
+.cities > div > .weather .description{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    font-size: 1.5em;
+    color: #e1f2fa;
+    opacity: 0.7;
+}
+
+.cities > div > .weather .stats{
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    right: 20px;
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 1px 1px 1px #2277aa;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: ". .";
+}
+.cities > div > .weather .stats > div{
+    margin-bottom: 0.3em;
+    padding: 0.3em 0;
+    background-color: rgba(10, 40, 80, 0.06);
+}
+
+.cities > div > .weather .stats > .label{
+    text-align: right;
+    padding-right: 1em;
+    font-size: 0.9em;
+}
+
+.cities > div > .weather .icon.clear{ 
+    background-position: -125px -113px;
+}
+
+.cities > div > .weather.night .icon.clear{ 
+    background-position: -125px -213px;
+}
+
+.cities > div > .weather .icon.few{ 
+    background-position: -10px -113px;
+}
+
+.cities > div > .weather.night .icon.few{ 
+    background-position: -117px -10px;
+}
+
+.cities > div > .weather .icon.scattered{ 
+    background-position: -10px -212px;
+}
+
+.cities > div > .weather .icon.broken{ 
+    background-position: -10px -212px;
+}
+
+.cities > div > .weather .icon.rain{ 
+    background-position: -230px -113px;
+}
+
+.cities > div > .weather .icon.thunderstorm{ 
+    background-position: -230px -10px;
+}
+
+.cities > div > .weather .icon.snow{ 
+    background-position: -230px -212px;
+}
+
+.cities > div > .weather .icon.mist{ 
+    background-position: -10px -10px;
+}
+
+.clock{
+    display: inline-block;
+    background-color: rgba(10, 40, 80, 0.35);
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 0.7em 1em;
+}
+
+.clock a{
+    text-decoration: none;
+    color: white;
+}
+
+.city-image{
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.city-image img{
+    width: auto;
+    max-height: 500px;
+}

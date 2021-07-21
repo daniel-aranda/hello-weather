@@ -1,0 +1,65 @@
+<html>
+
+<head>
+
+    <title>Hellow Weather</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/hellow-weather.css" />
+
+</head>
+
+<body>
+
+    <div id="header"><img src="assets/images/cloud.png" /> Hello Weather</div>
+
+    <div class="page-content">
+
+        <div class="blank-page">
+            <div id="top-bar"></div>
+            <div id="cities-list"></div>
+        </div>
+
+    </div>
+
+    <script type="module">
+
+        import HelloWeatherApp from './javascript/core/HelloWeatherApp.js';
+
+        import TopBar from './javascript/core/TopBar.js';
+        import Cities from './javascript/core/Cities.js';
+
+        startApp();
+
+        async function startApp() {
+
+            const helloWeatherApp = HelloWeatherApp.factory();
+
+            const topBar = TopBar.factory(helloWeatherApp.openWeatherAPI);
+
+            const cities = Cities.factory(helloWeatherApp.openWeatherAPI);            
+
+            topBar.hook(document.getElementById(`top-bar`));
+            
+            cities.hook(document.getElementById(`cities-list`));
+
+            await cities.loadCities();
+
+            // const currentWeather = await helloWeatherApp.openWeatherAPI.getCurrentWeather(`New York City`);
+            // console.log(currentWeather);
+
+            // const images = await helloWeatherApp.openWeatherAPI.getImagesForCity(`New York`);
+            // console.log(images.hits[0]);
+
+            // helloWeatherApp.openWeatherAPI.addCity(`New York City`);
+            // helloWeatherApp.openWeatherAPI.addCity(`Miami`);
+
+        }
+
+    </script>
+
+</body>
+
+</html>

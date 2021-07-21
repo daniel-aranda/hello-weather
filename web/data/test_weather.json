@@ -1,0 +1,446 @@
+{
+    "New York City": {
+        "coord": {
+            "lon": -74.006,
+            "lat": 40.7143
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.11,
+            "feels_like": 25.4,
+            "temp_min": 21.67,
+            "temp_max": 26.97,
+            "pressure": 1014,
+            "humidity": 66
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 1.54,
+            "deg": 270
+        },
+        "clouds": {
+            "all": 1
+        },
+        "dt": 1626742161,
+        "sys": {
+            "type": 2,
+            "id": 2039034,
+            "country": "US",
+            "sunrise": 1626687658,
+            "sunset": 1626740599
+        },
+        "timezone": -14400,
+        "id": 5128581,
+        "name": "New York",
+        "cod": 200,
+        "city_image": "https://pixabay.com/get/gbbb20ed32082641414aa806eb66b0c6195b753280012d7f5bca1cb190a0eb485d85371393b1135ef7688a90a2d63ef10_640.jpg"
+    },
+    "Miami": {
+        "coord": {
+            "lon": -80.1937,
+            "lat": 25.7743
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 28.53,
+            "feels_like": 32.74,
+            "temp_min": 27.77,
+            "temp_max": 29.01,
+            "pressure": 1018,
+            "humidity": 76
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.45,
+            "deg": 89,
+            "gust": 1.79
+        },
+        "clouds": {
+            "all": 40
+        },
+        "dt": 1626742192,
+        "sys": {
+            "type": 2,
+            "id": 2009435,
+            "country": "US",
+            "sunrise": 1626691240,
+            "sunset": 1626739987
+        },
+        "timezone": -14400,
+        "id": 4164138,
+        "name": "Miami",
+        "cod": 200,
+        "city_image": "https://pixabay.com/get/ga553436cf0d10e968030bc0256845ce984da34d8f2ed13dbe75a52a45c6ff49972d2817e920c7670b045c5841d6f213ad6216e09a5ede9f0d072f9d19000b092_640.jpg"
+    },
+    "Chicago": {
+        "coord": {
+            "lon": -87.65,
+            "lat": 41.85
+        },
+        "weather": [
+            {
+                "id": 801,
+                "main": "Clouds",
+                "description": "few clouds",
+                "icon": "02d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.21,
+            "feels_like": 25.22,
+            "temp_min": 22.88,
+            "temp_max": 26.97,
+            "pressure": 1020,
+            "humidity": 55
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.6,
+            "deg": 90
+        },
+        "clouds": {
+            "all": 20
+        },
+        "dt": 1626742006,
+        "sys": {
+            "type": 2,
+            "id": 2005153,
+            "country": "US",
+            "sunrise": 1626690733,
+            "sunset": 1626744073
+        },
+        "timezone": -18000,
+        "id": 4887398,
+        "name": "Chicago",
+        "cod": 200,
+        "city_image": "https://pixabay.com/get/g02e9a6ba291e588915bf148b4182dfa33d43596c5e4ded1afdc665de1d9c8f5e2dd9edc25458af66fbc24d1611df2c84_640.jpg"
+    },
+    "Los Angeles": {
+        "coord": {
+            "lon": -118.2437,
+            "lat": 34.0522
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 29.79,
+            "feels_like": 29.92,
+            "temp_min": 21.77,
+            "temp_max": 40.38,
+            "pressure": 1015,
+            "humidity": 44
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.06,
+            "deg": 250
+        },
+        "clouds": {
+            "all": 1
+        },
+        "dt": 1626741926,
+        "sys": {
+            "type": 1,
+            "id": 3694,
+            "country": "US",
+            "sunrise": 1626699319,
+            "sunset": 1626750173
+        },
+        "timezone": -25200,
+        "id": 5368361,
+        "name": "Los Angeles",
+        "cod": 200,
+        "city_image": "https://pixabay.com/get/gd3d3f01c1d0178898b3f7c1433a0c2db7fdbf707b280d9678534410b8c85b20636ee7097e1cc2104e3f3e2749a0e26ef5daf170aab2c6333d3daef2c68563d9a_640.jpg"
+    },
+    "San Diego": {
+        "coord": {
+            "lon": -117.1573,
+            "lat": 32.7153
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 25.53,
+            "feels_like": 25.65,
+            "temp_min": 25.53,
+            "temp_max": 25.53,
+            "pressure": 1015,
+            "humidity": 58,
+            "sea_level": 1015,
+            "grnd_level": 1012
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 4.14,
+            "deg": 298,
+            "gust": 4.2
+        },
+        "clouds": {
+            "all": 0
+        },
+        "dt": 1626741407,
+        "sys": {
+            "country": "US",
+            "sunrise": 1626699243,
+            "sunset": 1626749727
+        },
+        "timezone": -25200,
+        "id": 5391811,
+        "name": "San Diego",
+        "cod": 200,
+        "city_image": "https://pixabay.com/get/g906832e870c0acf716bc79d51f818ba67930ac109ca7e47ed48d384b8ecc8b578318005ebacf7d0c249dc0834239275dd04c3fed357fff725cf29f0b3dfcedd0_640.jpg"
+    },
+    "San Francisco": {
+        "coord": {
+            "lon": -122.4194,
+            "lat": 37.7749
+        },
+        "weather": [
+            {
+                "id": 802,
+                "main": "Clouds",
+                "description": "scattered clouds",
+                "icon": "03d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 18.4,
+            "feels_like": 18.36,
+            "temp_min": 12.12,
+            "temp_max": 36.19,
+            "pressure": 1016,
+            "humidity": 79
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 2.68,
+            "deg": 266,
+            "gust": 6.71
+        },
+        "clouds": {
+            "all": 40
+        },
+        "dt": 1626742005,
+        "sys": {
+            "type": 2,
+            "id": 2017837,
+            "country": "US",
+            "sunrise": 1626699768,
+            "sunset": 1626751728
+        },
+        "timezone": -25200,
+        "id": 5391959,
+        "name": "San Francisco",
+        "cod": 200,
+        "city_image": "https://pixabay.com/get/gfc8d706b56ff78310ff772bcfbdd0b626079a3f5e29ce4b06449857b7bc8fad0967a78906a25eb3cb22f63299fa2f76f_640.jpg"
+    },
+    "Las Vegas": {
+        "coord": {
+            "lon": -115.1372,
+            "lat": 36.175
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 36.62,
+            "feels_like": 37.14,
+            "temp_min": 35.38,
+            "temp_max": 38.48,
+            "pressure": 1014,
+            "humidity": 30
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.09,
+            "deg": 140
+        },
+        "clouds": {
+            "all": 1
+        },
+        "dt": 1626742098,
+        "sys": {
+            "type": 1,
+            "id": 6171,
+            "country": "US",
+            "sunrise": 1626698265,
+            "sunset": 1626749736
+        },
+        "timezone": -25200,
+        "id": 5506956,
+        "name": "Las Vegas",
+        "cod": 200,
+        "city_image": "https://pixabay.com/get/g55d55773e78d110890fb843beb8bb2b437abe7821c0cd04f872ee8d110aa266475cacbc9323bc3177ca1177108107804234c3df962cf7fcbf2d487be9a8a880e_640.jpg"
+    },
+    "Paris": {
+        "coord": {
+            "lon": 2.3488,
+            "lat": 48.8534
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 20.08,
+            "feels_like": 20.21,
+            "temp_min": 16.39,
+            "temp_max": 22.28,
+            "pressure": 1019,
+            "humidity": 79
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.6,
+            "deg": 70
+        },
+        "clouds": {
+            "all": 0
+        },
+        "dt": 1626741384,
+        "sys": {
+            "type": 1,
+            "id": 6550,
+            "country": "FR",
+            "sunrise": 1626754123,
+            "sunset": 1626810290
+        },
+        "timezone": 7200,
+        "id": 2988507,
+        "name": "Paris",
+        "cod": 200,
+        "city_image": "https://pixabay.com/get/g74535dd32638a162a3cb79364161e713ae8dabf15c1b6c8bd69e4e2d7bd58f0d701100a705212769428615a8de24cecc_640.jpg"
+    },
+    "London": {
+        "coord": {
+            "lon": -0.1257,
+            "lat": 51.5085
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01n"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 18.84,
+            "feels_like": 19.03,
+            "temp_min": 15.92,
+            "temp_max": 21.19,
+            "pressure": 1020,
+            "humidity": 86
+        },
+        "visibility": 8000,
+        "wind": {
+            "speed": 3.09,
+            "deg": 90
+        },
+        "clouds": {
+            "all": 10
+        },
+        "dt": 1626741995,
+        "sys": {
+            "type": 2,
+            "id": 2006068,
+            "country": "GB",
+            "sunrise": 1626754030,
+            "sunset": 1626811571
+        },
+        "timezone": 3600,
+        "id": 2643743,
+        "name": "London",
+        "cod": 200,
+        "city_image": "https://pixabay.com/get/g55a638ffc5af501237926180effb1ff4851ddd55893a374041f78f013eda0d12ae3f0420232152453f0f1df2c1cc01c9_640.jpg"
+    },
+    "Tokio": {
+        "coord": {
+            "lon": 139.6917,
+            "lat": 35.6895
+        },
+        "weather": [
+            {
+                "id": 803,
+                "main": "Clouds",
+                "description": "broken clouds",
+                "icon": "04d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 30.97,
+            "feels_like": 36.64,
+            "temp_min": 28.72,
+            "temp_max": 32.58,
+            "pressure": 1016,
+            "humidity": 67
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 0.89,
+            "deg": 133,
+            "gust": 2.24
+        },
+        "clouds": {
+            "all": 75
+        },
+        "dt": 1626742097,
+        "sys": {
+            "type": 2,
+            "id": 2001249,
+            "country": "JP",
+            "sunrise": 1626723591,
+            "sunset": 1626774895
+        },
+        "timezone": 32400,
+        "id": 1850147,
+        "name": "Tokyo",
+        "cod": 200,
+        "city_image": "https://pixabay.com/get/g3cdcbb90bcbed9525caf8ead3d05985caeca851a3530ad1485fb72226133d4bcd4c2f1cb6755bd9a4a244cb1152e64db_640.jpg"
+    }
+}
