@@ -50,7 +50,7 @@ export default class OpenWeatherAPI extends Eventable {
     getCities(){
         const cities = this.getLocalStorage('helloWeather_cities');
 
-        return cities;
+        return cities || [];
     }
 
     saveLocalStorage(key, value){
