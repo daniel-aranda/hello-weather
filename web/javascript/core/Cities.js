@@ -140,7 +140,10 @@ export default class Cities extends View {
 
             const weather = this.mapTemperature( this.currentWeather[cityName] );
 
-            citiesHtml += Cities.CITY_TEMPLATE(cityName, weather);
+            if( weather.cod != '404' ){
+                citiesHtml += Cities.CITY_TEMPLATE(cityName, weather);
+            }
+            
         });
 
         this.find(`.cities`).innerHTML = citiesHtml;
@@ -169,10 +172,6 @@ export default class Cities extends View {
     }
 
     static mapTemperature(weather, metric){
-
-        if( !weather || weather.length === 0 ){
-            return {};
-        }
 
         const weatherCondition = weather.weather[0];
         const weatherType = weatherCondition.main;
